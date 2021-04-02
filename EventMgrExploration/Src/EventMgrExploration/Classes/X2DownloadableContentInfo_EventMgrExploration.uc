@@ -1,0 +1,1 @@
+class X2DownloadableContentInfo_EventMgrExploration extends X2DownloadableContentInfo;

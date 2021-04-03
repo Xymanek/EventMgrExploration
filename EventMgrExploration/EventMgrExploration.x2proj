@@ -8,6 +8,9 @@
     <AssemblyName>EventMgrExploration</AssemblyName>
     <RootNamespace>EventMgrExploration</RootNamespace>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
   <ItemGroup>
     <Folder Include="Config\" />
     <Folder Include="Content\" />
@@ -24,6 +27,12 @@
     <Content Include="Config\XComGame.ini" />
     <Content Include="Localization\EventMgrExploration.int" />
     <Content Include="Src\EventMgrExploration\Classes\X2DownloadableContentInfo_EventMgrExploration.uc" />
+    <Content Include="Src\EventMgrExploration\Classes\X2EventListener_Test.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\EventMgrExploration\Classes\XCGS_Test.uc">
+      <SubType>Content</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
 </Project>

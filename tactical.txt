@@ -1,0 +1,986 @@
+tactical
+
+[0097.46] EventMgrExploration: EME_Test1
+[0097.46] EventMgrExploration: Before setting
+[0097.46] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_PreStateSubmitted'  EventDelegate: 'No Valid Object' 'On_ELD_PreStateSubmitted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.46] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnVisualizationBlockCompleted'  EventDelegate: 'No Valid Object' 'On_ELD_OnVisualizationBlockCompleted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.47] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnStateSubmitted'  EventDelegate: 'No Valid Object' 'On_ELD_OnStateSubmitted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.47] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_Immediate'  EventDelegate: 'No Valid Object' 'On_ELD_Immediate' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.47] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnVisualizationBlockStarted'  EventDelegate: 'No Valid Object' 'On_ELD_OnVisualizationBlockStarted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.47] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'EME_Test1'  EventData State ID: 344  EventData Object: 'XCGS_Test_0'
+            EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_Immediate'  EventDelegate: 'No Valid Object' 'On_ELD_Immediate' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+ bIsDelta=1, bReadOnly=0, StateChangeContext=(), GameStates.Num=1, GameStates[0]=(XCGS_Test: ObjectID=344, bReadOnly=0
+  iVar = 0
+  ObjectID = 344
+  PreviousHistoryFrameIndex = -1
+  bReadOnly = False
+  bRemoved = False
+  bInPlay = True
+  bRequiresVisibilityUpdate = False
+  bSingletonStateType = False
+  bTacticalTransient = False
+  OwningObjectId = -1
+  VisibilityInterface = None
+  VfTableObject = 
+  HashNext = 
+  ObjectFlags = 
+  HashOuterNext = 
+  StateFrame = 
+  Linker = None
+  LinkerIndex = 
+  NetIndex = -1
+  Class = Class'EventMgrExploration.XCGS_Test'
+  ObjectArchetype = XCGS_Test'EventMgrExploration.Default__XCGS_Test'
+), 
+[0097.47] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'EME_Test1'  EventData State ID: 344  EventData Object: 'XCGS_Test_0'
+            EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnStateSubmitted'  EventDelegate: 'No Valid Object' 'On_ELD_OnStateSubmitted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+ bIsDelta=1, bReadOnly=0, StateChangeContext=(), GameStates.Num=1, GameStates[0]=(XCGS_Test: ObjectID=344, bReadOnly=0
+  iVar = 0
+  ObjectID = 344
+  PreviousHistoryFrameIndex = -1
+  bReadOnly = False
+  bRemoved = False
+  bInPlay = True
+  bRequiresVisibilityUpdate = False
+  bSingletonStateType = False
+  bTacticalTransient = False
+  OwningObjectId = -1
+  VisibilityInterface = None
+  VfTableObject = 
+  HashNext = 
+  ObjectFlags = 
+  HashOuterNext = 
+  StateFrame = 
+  Linker = None
+  LinkerIndex = 
+  NetIndex = -1
+  Class = Class'EventMgrExploration.XCGS_Test'
+  ObjectArchetype = XCGS_Test'EventMgrExploration.Default__XCGS_Test'
+), 
+[0097.47] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'EME_Test1'  EventData State ID: 344  EventData Object: 'XCGS_Test_0'
+            EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnVisualizationBlockCompleted'  EventDelegate: 'No Valid Object' 'On_ELD_OnVisualizationBlockCompleted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+ bIsDelta=1, bReadOnly=0, StateChangeContext=(), GameStates.Num=1, GameStates[0]=(XCGS_Test: ObjectID=344, bReadOnly=0
+  iVar = 0
+  ObjectID = 344
+  PreviousHistoryFrameIndex = -1
+  bReadOnly = False
+  bRemoved = False
+  bInPlay = True
+  bRequiresVisibilityUpdate = False
+  bSingletonStateType = False
+  bTacticalTransient = False
+  OwningObjectId = -1
+  VisibilityInterface = None
+  VfTableObject = 
+  HashNext = 
+  ObjectFlags = 
+  HashOuterNext = 
+  StateFrame = 
+  Linker = None
+  LinkerIndex = 
+  NetIndex = -1
+  Class = Class'EventMgrExploration.XCGS_Test'
+  ObjectArchetype = XCGS_Test'EventMgrExploration.Default__XCGS_Test'
+), 
+[0097.47] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'EME_Test1'  EventData State ID: 344  EventData Object: 'XCGS_Test_0'
+            EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_PreStateSubmitted'  EventDelegate: 'No Valid Object' 'On_ELD_PreStateSubmitted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+ bIsDelta=1, bReadOnly=0, StateChangeContext=(), GameStates.Num=1, GameStates[0]=(XCGS_Test: ObjectID=344, bReadOnly=0
+  iVar = 0
+  ObjectID = 344
+  PreviousHistoryFrameIndex = -1
+  bReadOnly = False
+  bRemoved = False
+  bInPlay = True
+  bRequiresVisibilityUpdate = False
+  bSingletonStateType = False
+  bTacticalTransient = False
+  OwningObjectId = -1
+  VisibilityInterface = None
+  VfTableObject = 
+  HashNext = 
+  ObjectFlags = 
+  HashOuterNext = 
+  StateFrame = 
+  Linker = None
+  LinkerIndex = 
+  NetIndex = -1
+  Class = Class'EventMgrExploration.XCGS_Test'
+  ObjectArchetype = XCGS_Test'EventMgrExploration.Default__XCGS_Test'
+), 
+[0097.47] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'EME_Test1'  EventData State ID: 344  EventData Object: 'XCGS_Test_0'
+            EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnVisualizationBlockStarted'  EventDelegate: 'No Valid Object' 'On_ELD_OnVisualizationBlockStarted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+ bIsDelta=1, bReadOnly=0, StateChangeContext=(), GameStates.Num=1, GameStates[0]=(XCGS_Test: ObjectID=344, bReadOnly=0
+  iVar = 0
+  ObjectID = 344
+  PreviousHistoryFrameIndex = -1
+  bReadOnly = False
+  bRemoved = False
+  bInPlay = True
+  bRequiresVisibilityUpdate = False
+  bSingletonStateType = False
+  bTacticalTransient = False
+  OwningObjectId = -1
+  VisibilityInterface = None
+  VfTableObject = 
+  HashNext = 
+  ObjectFlags = 
+  HashOuterNext = 
+  StateFrame = 
+  Linker = None
+  LinkerIndex = 
+  NetIndex = -1
+  Class = Class'EventMgrExploration.XCGS_Test'
+  ObjectArchetype = XCGS_Test'EventMgrExploration.Default__XCGS_Test'
+), 
+[0097.47] ELD_Immediate: Starting
+[0097.47] ELD_Immediate: History.GetNumGameStates():'168'
+[0097.47] ELD_Immediate: History.GetCurrentHistoryIndex():'167'
+[0097.47] ELD_Immediate: PathName(History.GetGameStateFromHistory()):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_755'
+[0097.48] ELD_Immediate: PathName(GameState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756'
+[0097.48] ELD_Immediate: GameState.bReadOnly:'False'
+[0097.48] ELD_Immediate: GameState.HistoryIndex:'-1'
+[0097.48] ELD_Immediate: GameState.GetNumGameStateObjects():'1'
+[0097.48] ELD_Immediate: TestState != none:'True'
+[0097.48] ELD_Immediate: PathName(TestState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756.XCGS_Test_0'
+[0097.48] ELD_Immediate: TestState.bReadOnly:'False'
+[0097.48] ELD_Immediate: TestState.bRemoved:'False'
+[0097.48] ELD_Immediate: TestState.iVar:'0'
+[0097.48] ELD_Immediate: PathName(FromHistoryState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756.XCGS_Test_0'
+[0097.49] ELD_Immediate: Finished
+[0097.49] EventMgrExploration: After setting
+[0097.49] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_PreStateSubmitted'  EventDelegate: 'No Valid Object' 'On_ELD_PreStateSubmitted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.49] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnVisualizationBlockCompleted'  EventDelegate: 'No Valid Object' 'On_ELD_OnVisualizationBlockCompleted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.49] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnStateSubmitted'  EventDelegate: 'No Valid Object' 'On_ELD_OnStateSubmitted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.49] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_Immediate'  EventDelegate: 'No Valid Object' 'On_ELD_Immediate' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.49] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnVisualizationBlockStarted'  EventDelegate: 'No Valid Object' 'On_ELD_OnVisualizationBlockStarted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.49] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'EME_Test1'  EventData State ID: 344  EventData Object: 'XCGS_Test_0'
+            EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_Immediate'  EventDelegate: 'No Valid Object' 'On_ELD_Immediate' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+ bIsDelta=1, bReadOnly=0, StateChangeContext=(), GameStates.Num=1, GameStates[0]=(XCGS_Test: ObjectID=344, bReadOnly=0
+  iVar = 1
+  ObjectID = 344
+  PreviousHistoryFrameIndex = -1
+  bReadOnly = False
+  bRemoved = False
+  bInPlay = True
+  bRequiresVisibilityUpdate = False
+  bSingletonStateType = False
+  bTacticalTransient = False
+  OwningObjectId = -1
+  VisibilityInterface = None
+  VfTableObject = 
+  HashNext = 
+  ObjectFlags = 
+  HashOuterNext = 
+  StateFrame = 
+  Linker = None
+  LinkerIndex = 
+  NetIndex = -1
+  Class = Class'EventMgrExploration.XCGS_Test'
+  ObjectArchetype = XCGS_Test'EventMgrExploration.Default__XCGS_Test'
+), 
+[0097.49] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'EME_Test1'  EventData State ID: 344  EventData Object: 'XCGS_Test_0'
+            EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnStateSubmitted'  EventDelegate: 'No Valid Object' 'On_ELD_OnStateSubmitted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+ bIsDelta=1, bReadOnly=0, StateChangeContext=(), GameStates.Num=1, GameStates[0]=(XCGS_Test: ObjectID=344, bReadOnly=0
+  iVar = 1
+  ObjectID = 344
+  PreviousHistoryFrameIndex = -1
+  bReadOnly = False
+  bRemoved = False
+  bInPlay = True
+  bRequiresVisibilityUpdate = False
+  bSingletonStateType = False
+  bTacticalTransient = False
+  OwningObjectId = -1
+  VisibilityInterface = None
+  VfTableObject = 
+  HashNext = 
+  ObjectFlags = 
+  HashOuterNext = 
+  StateFrame = 
+  Linker = None
+  LinkerIndex = 
+  NetIndex = -1
+  Class = Class'EventMgrExploration.XCGS_Test'
+  ObjectArchetype = XCGS_Test'EventMgrExploration.Default__XCGS_Test'
+), 
+[0097.49] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'EME_Test1'  EventData State ID: 344  EventData Object: 'XCGS_Test_0'
+            EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnVisualizationBlockCompleted'  EventDelegate: 'No Valid Object' 'On_ELD_OnVisualizationBlockCompleted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+ bIsDelta=1, bReadOnly=0, StateChangeContext=(), GameStates.Num=1, GameStates[0]=(XCGS_Test: ObjectID=344, bReadOnly=0
+  iVar = 1
+  ObjectID = 344
+  PreviousHistoryFrameIndex = -1
+  bReadOnly = False
+  bRemoved = False
+  bInPlay = True
+  bRequiresVisibilityUpdate = False
+  bSingletonStateType = False
+  bTacticalTransient = False
+  OwningObjectId = -1
+  VisibilityInterface = None
+  VfTableObject = 
+  HashNext = 
+  ObjectFlags = 
+  HashOuterNext = 
+  StateFrame = 
+  Linker = None
+  LinkerIndex = 
+  NetIndex = -1
+  Class = Class'EventMgrExploration.XCGS_Test'
+  ObjectArchetype = XCGS_Test'EventMgrExploration.Default__XCGS_Test'
+), 
+[0097.49] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'EME_Test1'  EventData State ID: 344  EventData Object: 'XCGS_Test_0'
+            EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_PreStateSubmitted'  EventDelegate: 'No Valid Object' 'On_ELD_PreStateSubmitted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+ bIsDelta=1, bReadOnly=0, StateChangeContext=(), GameStates.Num=1, GameStates[0]=(XCGS_Test: ObjectID=344, bReadOnly=0
+  iVar = 1
+  ObjectID = 344
+  PreviousHistoryFrameIndex = -1
+  bReadOnly = False
+  bRemoved = False
+  bInPlay = True
+  bRequiresVisibilityUpdate = False
+  bSingletonStateType = False
+  bTacticalTransient = False
+  OwningObjectId = -1
+  VisibilityInterface = None
+  VfTableObject = 
+  HashNext = 
+  ObjectFlags = 
+  HashOuterNext = 
+  StateFrame = 
+  Linker = None
+  LinkerIndex = 
+  NetIndex = -1
+  Class = Class'EventMgrExploration.XCGS_Test'
+  ObjectArchetype = XCGS_Test'EventMgrExploration.Default__XCGS_Test'
+), 
+[0097.49] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'EME_Test1'  EventData State ID: 344  EventData Object: 'XCGS_Test_0'
+            EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnVisualizationBlockStarted'  EventDelegate: 'No Valid Object' 'On_ELD_OnVisualizationBlockStarted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+ bIsDelta=1, bReadOnly=0, StateChangeContext=(), GameStates.Num=1, GameStates[0]=(XCGS_Test: ObjectID=344, bReadOnly=0
+  iVar = 1
+  ObjectID = 344
+  PreviousHistoryFrameIndex = -1
+  bReadOnly = False
+  bRemoved = False
+  bInPlay = True
+  bRequiresVisibilityUpdate = False
+  bSingletonStateType = False
+  bTacticalTransient = False
+  OwningObjectId = -1
+  VisibilityInterface = None
+  VfTableObject = 
+  HashNext = 
+  ObjectFlags = 
+  HashOuterNext = 
+  StateFrame = 
+  Linker = None
+  LinkerIndex = 
+  NetIndex = -1
+  Class = Class'EventMgrExploration.XCGS_Test'
+  ObjectArchetype = XCGS_Test'EventMgrExploration.Default__XCGS_Test'
+), 
+[0097.50] ELD_Immediate: Starting
+[0097.50] ELD_Immediate: History.GetNumGameStates():'168'
+[0097.50] ELD_Immediate: History.GetCurrentHistoryIndex():'167'
+[0097.50] ELD_Immediate: PathName(History.GetGameStateFromHistory()):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_755'
+[0097.50] ELD_Immediate: PathName(GameState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756'
+[0097.50] ELD_Immediate: GameState.bReadOnly:'False'
+[0097.50] ELD_Immediate: GameState.HistoryIndex:'-1'
+[0097.50] ELD_Immediate: GameState.GetNumGameStateObjects():'1'
+[0097.50] ELD_Immediate: TestState != none:'True'
+[0097.50] ELD_Immediate: PathName(TestState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756.XCGS_Test_0'
+[0097.50] ELD_Immediate: TestState.bReadOnly:'False'
+[0097.50] ELD_Immediate: TestState.bRemoved:'False'
+[0097.50] ELD_Immediate: TestState.iVar:'1'
+[0097.50] ELD_Immediate: PathName(FromHistoryState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756.XCGS_Test_0'
+[0097.50] ELD_Immediate: Finished
+[0097.50] EventMgrExploration: Submit
+[0097.50] ELD_PreStateSubmitted: Starting
+[0097.50] ELD_PreStateSubmitted: History.GetNumGameStates():'168'
+[0097.50] ELD_PreStateSubmitted: History.GetCurrentHistoryIndex():'167'
+[0097.50] ELD_PreStateSubmitted: PathName(History.GetGameStateFromHistory()):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_755'
+[0097.50] ELD_PreStateSubmitted: PathName(GameState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756'
+[0097.50] ELD_PreStateSubmitted: GameState.bReadOnly:'False'
+[0097.50] ELD_PreStateSubmitted: GameState.HistoryIndex:'-1'
+[0097.50] ELD_PreStateSubmitted: GameState.GetNumGameStateObjects():'1'
+[0097.50] ELD_PreStateSubmitted: TestState != none:'True'
+[0097.50] ELD_PreStateSubmitted: PathName(TestState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756.XCGS_Test_0'
+[0097.50] ELD_PreStateSubmitted: TestState.bReadOnly:'False'
+[0097.50] ELD_PreStateSubmitted: TestState.bRemoved:'False'
+[0097.50] ELD_PreStateSubmitted: TestState.iVar:'1'
+[0097.50] ELD_PreStateSubmitted: PathName(FromHistoryState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756.XCGS_Test_0'
+[0097.50] ELD_PreStateSubmitted: Finished
+[0097.50] ELD_PreStateSubmitted: Starting
+[0097.50] ELD_PreStateSubmitted: History.GetNumGameStates():'168'
+[0097.50] ELD_PreStateSubmitted: History.GetCurrentHistoryIndex():'167'
+[0097.50] ELD_PreStateSubmitted: PathName(History.GetGameStateFromHistory()):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_755'
+[0097.50] ELD_PreStateSubmitted: PathName(GameState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756'
+[0097.50] ELD_PreStateSubmitted: GameState.bReadOnly:'False'
+[0097.50] ELD_PreStateSubmitted: GameState.HistoryIndex:'-1'
+[0097.50] ELD_PreStateSubmitted: GameState.GetNumGameStateObjects():'1'
+[0097.50] ELD_PreStateSubmitted: TestState != none:'True'
+[0097.50] ELD_PreStateSubmitted: PathName(TestState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756.XCGS_Test_0'
+[0097.50] ELD_PreStateSubmitted: TestState.bReadOnly:'False'
+[0097.50] ELD_PreStateSubmitted: TestState.bRemoved:'False'
+[0097.50] ELD_PreStateSubmitted: TestState.iVar:'1'
+[0097.50] ELD_PreStateSubmitted: PathName(FromHistoryState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756.XCGS_Test_0'
+[0097.50] ELD_PreStateSubmitted: Finished
+[0097.50] OnStateSubmitted: PathName(self):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756.XCGS_Test_0'
+[0097.50] OnStateSubmitted: bReadOnly:'True'
+[0097.50] OnStateSubmitted: bRemoved:'False'
+[0097.50] OnStateSubmitted: PathName(GetParentGameState()):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756'
+[0097.50] OnStateSubmitted: GetParentGameState().bReadOnly:'True'
+[0097.50] OnStateSubmitted: GetParentGameState().HistoryIndex:'168'
+[0097.50] OnStateSubmitted: GetParentGameState().GetNumGameStateObjects():'1'
+[0097.50] ELD_OnStateSubmitted: Starting
+[0097.50] ELD_OnStateSubmitted: History.GetNumGameStates():'169'
+[0097.50] ELD_OnStateSubmitted: History.GetCurrentHistoryIndex():'168'
+[0097.50] ELD_OnStateSubmitted: PathName(History.GetGameStateFromHistory()):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756'
+[0097.50] ELD_OnStateSubmitted: PathName(GameState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756'
+[0097.50] ELD_OnStateSubmitted: GameState.bReadOnly:'True'
+[0097.50] ELD_OnStateSubmitted: GameState.HistoryIndex:'168'
+[0097.50] ELD_OnStateSubmitted: GameState.GetNumGameStateObjects():'1'
+[0097.50] ELD_OnStateSubmitted: TestState != none:'True'
+[0097.50] ELD_OnStateSubmitted: PathName(TestState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756.XCGS_Test_0'
+[0097.50] ELD_OnStateSubmitted: TestState.bReadOnly:'False'
+[0097.50] ELD_OnStateSubmitted: TestState.bRemoved:'False'
+[0097.50] ELD_OnStateSubmitted: TestState.iVar:'1'
+[0097.50] ELD_OnStateSubmitted: PathName(FromHistoryState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756.XCGS_Test_0'
+[0097.50] ELD_OnStateSubmitted: Finished
+[0097.50] ELD_OnStateSubmitted: Starting
+[0097.50] ELD_OnStateSubmitted: History.GetNumGameStates():'169'
+[0097.50] ELD_OnStateSubmitted: History.GetCurrentHistoryIndex():'168'
+[0097.50] ELD_OnStateSubmitted: PathName(History.GetGameStateFromHistory()):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756'
+[0097.50] ELD_OnStateSubmitted: PathName(GameState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756'
+[0097.50] ELD_OnStateSubmitted: GameState.bReadOnly:'True'
+[0097.50] ELD_OnStateSubmitted: GameState.HistoryIndex:'168'
+[0097.50] ELD_OnStateSubmitted: GameState.GetNumGameStateObjects():'1'
+[0097.50] ELD_OnStateSubmitted: TestState != none:'True'
+[0097.50] ELD_OnStateSubmitted: PathName(TestState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756.XCGS_Test_0'
+[0097.50] ELD_OnStateSubmitted: TestState.bReadOnly:'False'
+[0097.50] ELD_OnStateSubmitted: TestState.bRemoved:'False'
+[0097.50] ELD_OnStateSubmitted: TestState.iVar:'1'
+[0097.50] ELD_OnStateSubmitted: PathName(FromHistoryState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756.XCGS_Test_0'
+[0097.50] ELD_OnStateSubmitted: Finished
+[0097.50] EventMgrExploration: Updating
+[0097.50] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_PreStateSubmitted'  EventDelegate: 'No Valid Object' 'On_ELD_PreStateSubmitted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.50] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnVisualizationBlockCompleted'  EventDelegate: 'No Valid Object' 'On_ELD_OnVisualizationBlockCompleted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.50] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnStateSubmitted'  EventDelegate: 'No Valid Object' 'On_ELD_OnStateSubmitted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.50] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_Immediate'  EventDelegate: 'No Valid Object' 'On_ELD_Immediate' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.50] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnVisualizationBlockStarted'  EventDelegate: 'No Valid Object' 'On_ELD_OnVisualizationBlockStarted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.50] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'EME_Test1'  EventData State ID: 344  EventData Object: 'XCGS_Test_0'
+            EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_Immediate'  EventDelegate: 'No Valid Object' 'On_ELD_Immediate' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+ bIsDelta=1, bReadOnly=0, StateChangeContext=(), GameStates.Num=1, GameStates[0]=(XCGS_Test: ObjectID=344, bReadOnly=0
+  iVar = 1
+  ObjectID = 344
+  PreviousHistoryFrameIndex = -1
+  bReadOnly = False
+  bRemoved = False
+  bInPlay = True
+  bRequiresVisibilityUpdate = False
+  bSingletonStateType = False
+  bTacticalTransient = False
+  OwningObjectId = -1
+  VisibilityInterface = None
+  VfTableObject = 
+  HashNext = 
+  ObjectFlags = 
+  HashOuterNext = 
+  StateFrame = 
+  Linker = None
+  LinkerIndex = 
+  NetIndex = -1
+  Class = Class'EventMgrExploration.XCGS_Test'
+  ObjectArchetype = XCGS_Test'EventMgrExploration.Default__XCGS_Test'
+), 
+[0097.50] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'EME_Test1'  EventData State ID: 344  EventData Object: 'XCGS_Test_0'
+            EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnStateSubmitted'  EventDelegate: 'No Valid Object' 'On_ELD_OnStateSubmitted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+ bIsDelta=1, bReadOnly=0, StateChangeContext=(), GameStates.Num=1, GameStates[0]=(XCGS_Test: ObjectID=344, bReadOnly=0
+  iVar = 1
+  ObjectID = 344
+  PreviousHistoryFrameIndex = -1
+  bReadOnly = False
+  bRemoved = False
+  bInPlay = True
+  bRequiresVisibilityUpdate = False
+  bSingletonStateType = False
+  bTacticalTransient = False
+  OwningObjectId = -1
+  VisibilityInterface = None
+  VfTableObject = 
+  HashNext = 
+  ObjectFlags = 
+  HashOuterNext = 
+  StateFrame = 
+  Linker = None
+  LinkerIndex = 
+  NetIndex = -1
+  Class = Class'EventMgrExploration.XCGS_Test'
+  ObjectArchetype = XCGS_Test'EventMgrExploration.Default__XCGS_Test'
+), 
+[0097.50] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'EME_Test1'  EventData State ID: 344  EventData Object: 'XCGS_Test_0'
+            EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnVisualizationBlockCompleted'  EventDelegate: 'No Valid Object' 'On_ELD_OnVisualizationBlockCompleted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+ bIsDelta=1, bReadOnly=0, StateChangeContext=(), GameStates.Num=1, GameStates[0]=(XCGS_Test: ObjectID=344, bReadOnly=0
+  iVar = 1
+  ObjectID = 344
+  PreviousHistoryFrameIndex = -1
+  bReadOnly = False
+  bRemoved = False
+  bInPlay = True
+  bRequiresVisibilityUpdate = False
+  bSingletonStateType = False
+  bTacticalTransient = False
+  OwningObjectId = -1
+  VisibilityInterface = None
+  VfTableObject = 
+  HashNext = 
+  ObjectFlags = 
+  HashOuterNext = 
+  StateFrame = 
+  Linker = None
+  LinkerIndex = 
+  NetIndex = -1
+  Class = Class'EventMgrExploration.XCGS_Test'
+  ObjectArchetype = XCGS_Test'EventMgrExploration.Default__XCGS_Test'
+), 
+[0097.50] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'EME_Test1'  EventData State ID: 344  EventData Object: 'XCGS_Test_0'
+            EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_PreStateSubmitted'  EventDelegate: 'No Valid Object' 'On_ELD_PreStateSubmitted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+ bIsDelta=1, bReadOnly=0, StateChangeContext=(), GameStates.Num=1, GameStates[0]=(XCGS_Test: ObjectID=344, bReadOnly=0
+  iVar = 1
+  ObjectID = 344
+  PreviousHistoryFrameIndex = -1
+  bReadOnly = False
+  bRemoved = False
+  bInPlay = True
+  bRequiresVisibilityUpdate = False
+  bSingletonStateType = False
+  bTacticalTransient = False
+  OwningObjectId = -1
+  VisibilityInterface = None
+  VfTableObject = 
+  HashNext = 
+  ObjectFlags = 
+  HashOuterNext = 
+  StateFrame = 
+  Linker = None
+  LinkerIndex = 
+  NetIndex = -1
+  Class = Class'EventMgrExploration.XCGS_Test'
+  ObjectArchetype = XCGS_Test'EventMgrExploration.Default__XCGS_Test'
+), 
+[0097.50] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'EME_Test1'  EventData State ID: 344  EventData Object: 'XCGS_Test_0'
+            EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnVisualizationBlockStarted'  EventDelegate: 'No Valid Object' 'On_ELD_OnVisualizationBlockStarted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+ bIsDelta=1, bReadOnly=0, StateChangeContext=(), GameStates.Num=1, GameStates[0]=(XCGS_Test: ObjectID=344, bReadOnly=0
+  iVar = 1
+  ObjectID = 344
+  PreviousHistoryFrameIndex = -1
+  bReadOnly = False
+  bRemoved = False
+  bInPlay = True
+  bRequiresVisibilityUpdate = False
+  bSingletonStateType = False
+  bTacticalTransient = False
+  OwningObjectId = -1
+  VisibilityInterface = None
+  VfTableObject = 
+  HashNext = 
+  ObjectFlags = 
+  HashOuterNext = 
+  StateFrame = 
+  Linker = None
+  LinkerIndex = 
+  NetIndex = -1
+  Class = Class'EventMgrExploration.XCGS_Test'
+  ObjectArchetype = XCGS_Test'EventMgrExploration.Default__XCGS_Test'
+), 
+[0097.50] ELD_Immediate: Starting
+[0097.50] ELD_Immediate: History.GetNumGameStates():'169'
+[0097.50] ELD_Immediate: History.GetCurrentHistoryIndex():'168'
+[0097.50] ELD_Immediate: PathName(History.GetGameStateFromHistory()):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756'
+[0097.50] ELD_Immediate: PathName(GameState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_757'
+[0097.50] ELD_Immediate: GameState.bReadOnly:'False'
+[0097.50] ELD_Immediate: GameState.HistoryIndex:'-1'
+[0097.50] ELD_Immediate: GameState.GetNumGameStateObjects():'1'
+[0097.50] ELD_Immediate: TestState != none:'True'
+[0097.50] ELD_Immediate: PathName(TestState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756.XCGS_Test_0'
+[0097.50] ELD_Immediate: TestState.bReadOnly:'False'
+[0097.50] ELD_Immediate: TestState.bRemoved:'False'
+[0097.50] ELD_Immediate: TestState.iVar:'1'
+[0097.50] ELD_Immediate: PathName(FromHistoryState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756.XCGS_Test_0'
+[0097.50] ELD_Immediate: Finished
+[0097.50] EventMgrExploration: After setting
+[0097.50] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_PreStateSubmitted'  EventDelegate: 'No Valid Object' 'On_ELD_PreStateSubmitted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.50] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnVisualizationBlockCompleted'  EventDelegate: 'No Valid Object' 'On_ELD_OnVisualizationBlockCompleted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.50] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnStateSubmitted'  EventDelegate: 'No Valid Object' 'On_ELD_OnStateSubmitted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.50] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_Immediate'  EventDelegate: 'No Valid Object' 'On_ELD_Immediate' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.50] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnVisualizationBlockStarted'  EventDelegate: 'No Valid Object' 'On_ELD_OnVisualizationBlockStarted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.50] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'EME_Test1'  EventData State ID: 344  EventData Object: 'XCGS_Test_0'
+            EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_Immediate'  EventDelegate: 'No Valid Object' 'On_ELD_Immediate' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+ bIsDelta=1, bReadOnly=0, StateChangeContext=(), GameStates.Num=1, GameStates[0]=(XCGS_Test: ObjectID=344, bReadOnly=0
+  iVar = 1
+  ObjectID = 344
+  PreviousHistoryFrameIndex = -1
+  bReadOnly = False
+  bRemoved = False
+  bInPlay = True
+  bRequiresVisibilityUpdate = False
+  bSingletonStateType = False
+  bTacticalTransient = False
+  OwningObjectId = -1
+  VisibilityInterface = None
+  VfTableObject = 
+  HashNext = 
+  ObjectFlags = 
+  HashOuterNext = 
+  StateFrame = 
+  Linker = None
+  LinkerIndex = 
+  NetIndex = -1
+  Class = Class'EventMgrExploration.XCGS_Test'
+  ObjectArchetype = XCGS_Test'EventMgrExploration.Default__XCGS_Test'
+), 
+[0097.50] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'EME_Test1'  EventData State ID: 344  EventData Object: 'XCGS_Test_0'
+            EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnStateSubmitted'  EventDelegate: 'No Valid Object' 'On_ELD_OnStateSubmitted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+ bIsDelta=1, bReadOnly=0, StateChangeContext=(), GameStates.Num=1, GameStates[0]=(XCGS_Test: ObjectID=344, bReadOnly=0
+  iVar = 1
+  ObjectID = 344
+  PreviousHistoryFrameIndex = -1
+  bReadOnly = False
+  bRemoved = False
+  bInPlay = True
+  bRequiresVisibilityUpdate = False
+  bSingletonStateType = False
+  bTacticalTransient = False
+  OwningObjectId = -1
+  VisibilityInterface = None
+  VfTableObject = 
+  HashNext = 
+  ObjectFlags = 
+  HashOuterNext = 
+  StateFrame = 
+  Linker = None
+  LinkerIndex = 
+  NetIndex = -1
+  Class = Class'EventMgrExploration.XCGS_Test'
+  ObjectArchetype = XCGS_Test'EventMgrExploration.Default__XCGS_Test'
+), 
+[0097.50] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'EME_Test1'  EventData State ID: 344  EventData Object: 'XCGS_Test_0'
+            EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnVisualizationBlockCompleted'  EventDelegate: 'No Valid Object' 'On_ELD_OnVisualizationBlockCompleted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+ bIsDelta=1, bReadOnly=0, StateChangeContext=(), GameStates.Num=1, GameStates[0]=(XCGS_Test: ObjectID=344, bReadOnly=0
+  iVar = 1
+  ObjectID = 344
+  PreviousHistoryFrameIndex = -1
+  bReadOnly = False
+  bRemoved = False
+  bInPlay = True
+  bRequiresVisibilityUpdate = False
+  bSingletonStateType = False
+  bTacticalTransient = False
+  OwningObjectId = -1
+  VisibilityInterface = None
+  VfTableObject = 
+  HashNext = 
+  ObjectFlags = 
+  HashOuterNext = 
+  StateFrame = 
+  Linker = None
+  LinkerIndex = 
+  NetIndex = -1
+  Class = Class'EventMgrExploration.XCGS_Test'
+  ObjectArchetype = XCGS_Test'EventMgrExploration.Default__XCGS_Test'
+), 
+[0097.51] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'EME_Test1'  EventData State ID: 344  EventData Object: 'XCGS_Test_0'
+            EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_PreStateSubmitted'  EventDelegate: 'No Valid Object' 'On_ELD_PreStateSubmitted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+ bIsDelta=1, bReadOnly=0, StateChangeContext=(), GameStates.Num=1, GameStates[0]=(XCGS_Test: ObjectID=344, bReadOnly=0
+  iVar = 1
+  ObjectID = 344
+  PreviousHistoryFrameIndex = -1
+  bReadOnly = False
+  bRemoved = False
+  bInPlay = True
+  bRequiresVisibilityUpdate = False
+  bSingletonStateType = False
+  bTacticalTransient = False
+  OwningObjectId = -1
+  VisibilityInterface = None
+  VfTableObject = 
+  HashNext = 
+  ObjectFlags = 
+  HashOuterNext = 
+  StateFrame = 
+  Linker = None
+  LinkerIndex = 
+  NetIndex = -1
+  Class = Class'EventMgrExploration.XCGS_Test'
+  ObjectArchetype = XCGS_Test'EventMgrExploration.Default__XCGS_Test'
+), 
+[0097.51] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'EME_Test1'  EventData State ID: 344  EventData Object: 'XCGS_Test_0'
+            EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnVisualizationBlockStarted'  EventDelegate: 'No Valid Object' 'On_ELD_OnVisualizationBlockStarted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+ bIsDelta=1, bReadOnly=0, StateChangeContext=(), GameStates.Num=1, GameStates[0]=(XCGS_Test: ObjectID=344, bReadOnly=0
+  iVar = 1
+  ObjectID = 344
+  PreviousHistoryFrameIndex = -1
+  bReadOnly = False
+  bRemoved = False
+  bInPlay = True
+  bRequiresVisibilityUpdate = False
+  bSingletonStateType = False
+  bTacticalTransient = False
+  OwningObjectId = -1
+  VisibilityInterface = None
+  VfTableObject = 
+  HashNext = 
+  ObjectFlags = 
+  HashOuterNext = 
+  StateFrame = 
+  Linker = None
+  LinkerIndex = 
+  NetIndex = -1
+  Class = Class'EventMgrExploration.XCGS_Test'
+  ObjectArchetype = XCGS_Test'EventMgrExploration.Default__XCGS_Test'
+), 
+[0097.51] ELD_Immediate: Starting
+[0097.51] ELD_Immediate: History.GetNumGameStates():'169'
+[0097.51] ELD_Immediate: History.GetCurrentHistoryIndex():'168'
+[0097.51] ELD_Immediate: PathName(History.GetGameStateFromHistory()):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756'
+[0097.51] ELD_Immediate: PathName(GameState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_757'
+[0097.51] ELD_Immediate: GameState.bReadOnly:'False'
+[0097.51] ELD_Immediate: GameState.HistoryIndex:'-1'
+[0097.51] ELD_Immediate: GameState.GetNumGameStateObjects():'1'
+[0097.51] ELD_Immediate: TestState != none:'True'
+[0097.51] ELD_Immediate: PathName(TestState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756.XCGS_Test_0'
+[0097.51] ELD_Immediate: TestState.bReadOnly:'False'
+[0097.51] ELD_Immediate: TestState.bRemoved:'False'
+[0097.51] ELD_Immediate: TestState.iVar:'1'
+[0097.51] ELD_Immediate: PathName(FromHistoryState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756.XCGS_Test_0'
+[0097.51] ELD_Immediate: Finished
+[0097.51] EventMgrExploration: Submit
+[0097.51] ELD_PreStateSubmitted: Starting
+[0097.51] ELD_PreStateSubmitted: History.GetNumGameStates():'169'
+[0097.51] ELD_PreStateSubmitted: History.GetCurrentHistoryIndex():'168'
+[0097.51] ELD_PreStateSubmitted: PathName(History.GetGameStateFromHistory()):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756'
+[0097.51] ELD_PreStateSubmitted: PathName(GameState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_757'
+[0097.51] ELD_PreStateSubmitted: GameState.bReadOnly:'False'
+[0097.51] ELD_PreStateSubmitted: GameState.HistoryIndex:'-1'
+[0097.51] ELD_PreStateSubmitted: GameState.GetNumGameStateObjects():'1'
+[0097.51] ELD_PreStateSubmitted: TestState != none:'True'
+[0097.51] ELD_PreStateSubmitted: PathName(TestState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756.XCGS_Test_0'
+[0097.51] ELD_PreStateSubmitted: TestState.bReadOnly:'False'
+[0097.51] ELD_PreStateSubmitted: TestState.bRemoved:'False'
+[0097.51] ELD_PreStateSubmitted: TestState.iVar:'1'
+[0097.51] ELD_PreStateSubmitted: PathName(FromHistoryState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756.XCGS_Test_0'
+[0097.51] ELD_PreStateSubmitted: Finished
+[0097.51] ELD_PreStateSubmitted: Starting
+[0097.51] ELD_PreStateSubmitted: History.GetNumGameStates():'169'
+[0097.51] ELD_PreStateSubmitted: History.GetCurrentHistoryIndex():'168'
+[0097.51] ELD_PreStateSubmitted: PathName(History.GetGameStateFromHistory()):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756'
+[0097.51] ELD_PreStateSubmitted: PathName(GameState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_757'
+[0097.51] ELD_PreStateSubmitted: GameState.bReadOnly:'False'
+[0097.51] ELD_PreStateSubmitted: GameState.HistoryIndex:'-1'
+[0097.51] ELD_PreStateSubmitted: GameState.GetNumGameStateObjects():'1'
+[0097.51] ELD_PreStateSubmitted: TestState != none:'True'
+[0097.51] ELD_PreStateSubmitted: PathName(TestState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756.XCGS_Test_0'
+[0097.51] ELD_PreStateSubmitted: TestState.bReadOnly:'False'
+[0097.51] ELD_PreStateSubmitted: TestState.bRemoved:'False'
+[0097.51] ELD_PreStateSubmitted: TestState.iVar:'1'
+[0097.51] ELD_PreStateSubmitted: PathName(FromHistoryState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756.XCGS_Test_0'
+[0097.51] ELD_PreStateSubmitted: Finished
+[0097.51] OnStateSubmitted: PathName(self):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_757.XCGS_Test_1'
+[0097.51] OnStateSubmitted: bReadOnly:'True'
+[0097.51] OnStateSubmitted: bRemoved:'False'
+[0097.51] OnStateSubmitted: PathName(GetParentGameState()):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_757'
+[0097.51] OnStateSubmitted: GetParentGameState().bReadOnly:'True'
+[0097.51] OnStateSubmitted: GetParentGameState().HistoryIndex:'169'
+[0097.51] OnStateSubmitted: GetParentGameState().GetNumGameStateObjects():'1'
+[0097.51] ELD_OnStateSubmitted: Starting
+[0097.51] ELD_OnStateSubmitted: History.GetNumGameStates():'170'
+[0097.51] ELD_OnStateSubmitted: History.GetCurrentHistoryIndex():'169'
+[0097.51] ELD_OnStateSubmitted: PathName(History.GetGameStateFromHistory()):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_757'
+[0097.51] ELD_OnStateSubmitted: PathName(GameState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_757'
+[0097.51] ELD_OnStateSubmitted: GameState.bReadOnly:'True'
+[0097.51] ELD_OnStateSubmitted: GameState.HistoryIndex:'169'
+[0097.51] ELD_OnStateSubmitted: GameState.GetNumGameStateObjects():'1'
+[0097.51] ELD_OnStateSubmitted: TestState != none:'True'
+[0097.51] ELD_OnStateSubmitted: PathName(TestState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_757.XCGS_Test_1'
+[0097.51] ELD_OnStateSubmitted: TestState.bReadOnly:'False'
+[0097.51] ELD_OnStateSubmitted: TestState.bRemoved:'False'
+[0097.51] ELD_OnStateSubmitted: TestState.iVar:'2'
+[0097.51] ELD_OnStateSubmitted: PathName(FromHistoryState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_757.XCGS_Test_1'
+[0097.51] ELD_OnStateSubmitted: Finished
+[0097.51] ELD_OnStateSubmitted: Starting
+[0097.51] ELD_OnStateSubmitted: History.GetNumGameStates():'170'
+[0097.51] ELD_OnStateSubmitted: History.GetCurrentHistoryIndex():'169'
+[0097.51] ELD_OnStateSubmitted: PathName(History.GetGameStateFromHistory()):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_757'
+[0097.51] ELD_OnStateSubmitted: PathName(GameState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_757'
+[0097.51] ELD_OnStateSubmitted: GameState.bReadOnly:'True'
+[0097.51] ELD_OnStateSubmitted: GameState.HistoryIndex:'169'
+[0097.51] ELD_OnStateSubmitted: GameState.GetNumGameStateObjects():'1'
+[0097.51] ELD_OnStateSubmitted: TestState != none:'True'
+[0097.51] ELD_OnStateSubmitted: PathName(TestState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_757.XCGS_Test_1'
+[0097.51] ELD_OnStateSubmitted: TestState.bReadOnly:'False'
+[0097.51] ELD_OnStateSubmitted: TestState.bRemoved:'False'
+[0097.51] ELD_OnStateSubmitted: TestState.iVar:'2'
+[0097.51] ELD_OnStateSubmitted: PathName(FromHistoryState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_757.XCGS_Test_1'
+[0097.51] ELD_OnStateSubmitted: Finished
+[0097.51] EventMgrExploration: Removing
+[0097.51] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_PreStateSubmitted'  EventDelegate: 'No Valid Object' 'On_ELD_PreStateSubmitted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.51] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnVisualizationBlockCompleted'  EventDelegate: 'No Valid Object' 'On_ELD_OnVisualizationBlockCompleted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.51] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnStateSubmitted'  EventDelegate: 'No Valid Object' 'On_ELD_OnStateSubmitted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.51] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_Immediate'  EventDelegate: 'No Valid Object' 'On_ELD_Immediate' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.51] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnVisualizationBlockStarted'  EventDelegate: 'No Valid Object' 'On_ELD_OnVisualizationBlockStarted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.51] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'EME_Test1'  EventData State ID: 344  EventData Object: 'XCGS_Test_1'
+            EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_Immediate'  EventDelegate: 'No Valid Object' 'On_ELD_Immediate' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+ bIsDelta=1, bReadOnly=0, StateChangeContext=(), GameStates.Num=1, GameStates[0]=(XCGS_Test: ObjectID=344, bReadOnly=0
+  iVar = 2 (Prev:  1)
+  PreviousHistoryFrameIndex = 168 (Prev:  -1)
+  bReadOnly = False (Prev:  True)
+), 
+[0097.51] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'EME_Test1'  EventData State ID: 344  EventData Object: 'XCGS_Test_1'
+            EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnStateSubmitted'  EventDelegate: 'No Valid Object' 'On_ELD_OnStateSubmitted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+ bIsDelta=1, bReadOnly=0, StateChangeContext=(), GameStates.Num=1, GameStates[0]=(XCGS_Test: ObjectID=344, bReadOnly=0
+  iVar = 2 (Prev:  1)
+  PreviousHistoryFrameIndex = 168 (Prev:  -1)
+  bReadOnly = False (Prev:  True)
+), 
+[0097.51] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'EME_Test1'  EventData State ID: 344  EventData Object: 'XCGS_Test_1'
+            EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnVisualizationBlockCompleted'  EventDelegate: 'No Valid Object' 'On_ELD_OnVisualizationBlockCompleted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+ bIsDelta=1, bReadOnly=0, StateChangeContext=(), GameStates.Num=1, GameStates[0]=(XCGS_Test: ObjectID=344, bReadOnly=0
+  iVar = 2 (Prev:  1)
+  PreviousHistoryFrameIndex = 168 (Prev:  -1)
+  bReadOnly = False (Prev:  True)
+), 
+[0097.51] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'EME_Test1'  EventData State ID: 344  EventData Object: 'XCGS_Test_1'
+            EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_PreStateSubmitted'  EventDelegate: 'No Valid Object' 'On_ELD_PreStateSubmitted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+ bIsDelta=1, bReadOnly=0, StateChangeContext=(), GameStates.Num=1, GameStates[0]=(XCGS_Test: ObjectID=344, bReadOnly=0
+  iVar = 2 (Prev:  1)
+  PreviousHistoryFrameIndex = 168 (Prev:  -1)
+  bReadOnly = False (Prev:  True)
+), 
+[0097.51] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'EME_Test1'  EventData State ID: 344  EventData Object: 'XCGS_Test_1'
+            EventID: 'EME_Test1'  Priority: 50  Deferral: 'ELD_OnVisualizationBlockStarted'  EventDelegate: 'No Valid Object' 'On_ELD_OnVisualizationBlockStarted' 'EventMgrExploration.X2EventListener_Test'  SourceObject: 'CHEventListenerTemplate_15'(0)  PreFilterObject: 'No Valid Object'(0)
+ bIsDelta=1, bReadOnly=0, StateChangeContext=(), GameStates.Num=1, GameStates[0]=(XCGS_Test: ObjectID=344, bReadOnly=0
+  iVar = 2 (Prev:  1)
+  PreviousHistoryFrameIndex = 168 (Prev:  -1)
+  bReadOnly = False (Prev:  True)
+), 
+[0097.51] ELD_Immediate: Starting
+[0097.51] ELD_Immediate: History.GetNumGameStates():'170'
+[0097.51] ELD_Immediate: History.GetCurrentHistoryIndex():'169'
+[0097.51] ELD_Immediate: PathName(History.GetGameStateFromHistory()):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_757'
+[0097.51] ELD_Immediate: PathName(GameState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_758'
+[0097.51] ELD_Immediate: GameState.bReadOnly:'False'
+[0097.51] ELD_Immediate: GameState.HistoryIndex:'-1'
+[0097.51] ELD_Immediate: GameState.GetNumGameStateObjects():'1'
+[0097.51] ELD_Immediate: TestState != none:'True'
+[0097.51] ELD_Immediate: PathName(TestState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_757.XCGS_Test_1'
+[0097.51] ELD_Immediate: TestState.bReadOnly:'False'
+[0097.51] ELD_Immediate: TestState.bRemoved:'False'
+[0097.51] ELD_Immediate: TestState.iVar:'2'
+[0097.51] ELD_Immediate: PathName(FromHistoryState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_757.XCGS_Test_1'
+[0097.51] ELD_Immediate: Finished
+[0097.51] EventMgrExploration: Submit
+[0097.51] ELD_PreStateSubmitted: Starting
+[0097.51] ELD_PreStateSubmitted: History.GetNumGameStates():'170'
+[0097.51] ELD_PreStateSubmitted: History.GetCurrentHistoryIndex():'169'
+[0097.51] ELD_PreStateSubmitted: PathName(History.GetGameStateFromHistory()):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_757'
+[0097.51] ELD_PreStateSubmitted: PathName(GameState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_758'
+[0097.51] ELD_PreStateSubmitted: GameState.bReadOnly:'False'
+[0097.51] ELD_PreStateSubmitted: GameState.HistoryIndex:'-1'
+[0097.51] ELD_PreStateSubmitted: GameState.GetNumGameStateObjects():'1'
+[0097.51] ELD_PreStateSubmitted: TestState != none:'True'
+[0097.51] ELD_PreStateSubmitted: PathName(TestState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_757.XCGS_Test_1'
+[0097.51] ELD_PreStateSubmitted: TestState.bReadOnly:'False'
+[0097.51] ELD_PreStateSubmitted: TestState.bRemoved:'False'
+[0097.51] ELD_PreStateSubmitted: TestState.iVar:'2'
+[0097.51] ELD_PreStateSubmitted: PathName(FromHistoryState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_757.XCGS_Test_1'
+[0097.51] ELD_PreStateSubmitted: Finished
+[0097.51] OnStateSubmitted: PathName(self):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_758.XCGS_Test_2'
+[0097.51] OnStateSubmitted: bReadOnly:'True'
+[0097.51] OnStateSubmitted: bRemoved:'True'
+[0097.52] OnStateSubmitted: PathName(GetParentGameState()):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_758'
+[0097.52] OnStateSubmitted: GetParentGameState().bReadOnly:'True'
+[0097.52] OnStateSubmitted: GetParentGameState().HistoryIndex:'170'
+[0097.52] OnStateSubmitted: GetParentGameState().GetNumGameStateObjects():'1'
+[0097.52] ELD_OnStateSubmitted: Starting
+[0097.52] ELD_OnStateSubmitted: History.GetNumGameStates():'171'
+[0097.52] ELD_OnStateSubmitted: History.GetCurrentHistoryIndex():'170'
+[0097.52] ELD_OnStateSubmitted: PathName(History.GetGameStateFromHistory()):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_758'
+[0097.52] ELD_OnStateSubmitted: PathName(GameState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_758'
+[0097.52] ELD_OnStateSubmitted: GameState.bReadOnly:'True'
+[0097.52] ELD_OnStateSubmitted: GameState.HistoryIndex:'170'
+[0097.52] ELD_OnStateSubmitted: GameState.GetNumGameStateObjects():'1'
+[0097.52] ELD_OnStateSubmitted: TestState != none:'True'
+[0097.52] ELD_OnStateSubmitted: PathName(TestState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_758.XCGS_Test_2'
+[0097.52] ELD_OnStateSubmitted: TestState.bReadOnly:'False'
+[0097.52] ELD_OnStateSubmitted: TestState.bRemoved:'True'
+[0097.52] ELD_OnStateSubmitted: TestState.iVar:'2'
+[0097.52] ELD_OnStateSubmitted: PathName(FromHistoryState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_758.XCGS_Test_2'
+[0097.52] ELD_OnStateSubmitted: Finished
+[0097.52] XCom_GameStates: UX2EventManager::RegisterForEvent - Event Listener: 
+EventID: 'X2Action_Completed'  Priority: 50  Deferral: 'ELD_Immediate'  EventDelegate: 'No Valid Object' 'OnParentEvent' ''  SourceObject: 'X2Action_MarkerTreeInsertBegin_168'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.52] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'OverrideReinforcementsAlert'  Priority: 99  Deferral: 'ELD_Immediate'  EventDelegate: 'No Valid Object' 'IncomingReinforcementsDisplay' 'CovertInfiltration.X2EventListener_Infiltration_UI'  SourceObject: 'CHEventListenerTemplate_13'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.52] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'OverrideReinforcementsAlert'  EventData State ID: 0  EventData Object: 'XComLWTuple_1911'
+            EventID: 'OverrideReinforcementsAlert'  Priority: 99  Deferral: 'ELD_Immediate'  EventDelegate: 'No Valid Object' 'IncomingReinforcementsDisplay' 'CovertInfiltration.X2EventListener_Infiltration_UI'  SourceObject: 'CHEventListenerTemplate_13'(0)  PreFilterObject: 'No Valid Object'(0)
+ NULL
+[0097.52] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'OverrideReinforcementsAlert'  Priority: 99  Deferral: 'ELD_Immediate'  EventDelegate: 'No Valid Object' 'IncomingReinforcementsDisplay' 'CovertInfiltration.X2EventListener_Infiltration_UI'  SourceObject: 'CHEventListenerTemplate_13'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.52] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'OverrideReinforcementsAlert'  EventData State ID: 0  EventData Object: 'XComLWTuple_1915'
+            EventID: 'OverrideReinforcementsAlert'  Priority: 99  Deferral: 'ELD_Immediate'  EventDelegate: 'No Valid Object' 'IncomingReinforcementsDisplay' 'CovertInfiltration.X2EventListener_Infiltration_UI'  SourceObject: 'CHEventListenerTemplate_13'(0)  PreFilterObject: 'No Valid Object'(0)
+ NULL
+[0097.52] ELD_OnVisualizationBlockCompleted: Starting
+[0097.52] ELD_OnVisualizationBlockCompleted: History.GetNumGameStates():'171'
+[0097.52] ELD_OnVisualizationBlockCompleted: History.GetCurrentHistoryIndex():'170'
+[0097.52] ELD_OnVisualizationBlockCompleted: PathName(History.GetGameStateFromHistory()):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_758'
+[0097.52] ELD_OnVisualizationBlockCompleted: PathName(GameState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756'
+[0097.52] ELD_OnVisualizationBlockCompleted: GameState.bReadOnly:'True'
+[0097.52] ELD_OnVisualizationBlockCompleted: GameState.HistoryIndex:'168'
+[0097.52] ELD_OnVisualizationBlockCompleted: GameState.GetNumGameStateObjects():'1'
+[0097.52] ELD_OnVisualizationBlockCompleted: TestState != none:'True'
+[0097.52] ELD_OnVisualizationBlockCompleted: PathName(TestState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_758.XCGS_Test_2'
+[0097.52] ELD_OnVisualizationBlockCompleted: TestState.bReadOnly:'False'
+[0097.52] ELD_OnVisualizationBlockCompleted: TestState.bRemoved:'True'
+[0097.52] ELD_OnVisualizationBlockCompleted: TestState.iVar:'2'
+[0097.52] ELD_OnVisualizationBlockCompleted: PathName(FromHistoryState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756.XCGS_Test_0'
+[0097.52] ELD_OnVisualizationBlockCompleted: Finished
+[0097.52] ELD_OnVisualizationBlockCompleted: Starting
+[0097.52] ELD_OnVisualizationBlockCompleted: History.GetNumGameStates():'171'
+[0097.52] ELD_OnVisualizationBlockCompleted: History.GetCurrentHistoryIndex():'170'
+[0097.52] ELD_OnVisualizationBlockCompleted: PathName(History.GetGameStateFromHistory()):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_758'
+[0097.52] ELD_OnVisualizationBlockCompleted: PathName(GameState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756'
+[0097.52] ELD_OnVisualizationBlockCompleted: GameState.bReadOnly:'True'
+[0097.52] ELD_OnVisualizationBlockCompleted: GameState.HistoryIndex:'168'
+[0097.52] ELD_OnVisualizationBlockCompleted: GameState.GetNumGameStateObjects():'1'
+[0097.52] ELD_OnVisualizationBlockCompleted: TestState != none:'True'
+[0097.52] ELD_OnVisualizationBlockCompleted: PathName(TestState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_758.XCGS_Test_2'
+[0097.52] ELD_OnVisualizationBlockCompleted: TestState.bReadOnly:'False'
+[0097.52] ELD_OnVisualizationBlockCompleted: TestState.bRemoved:'True'
+[0097.52] ELD_OnVisualizationBlockCompleted: TestState.iVar:'2'
+[0097.52] ELD_OnVisualizationBlockCompleted: PathName(FromHistoryState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_756.XCGS_Test_0'
+[0097.52] ELD_OnVisualizationBlockCompleted: Finished
+[0097.52] XCom_GameStates: UX2EventManager::RegisterForEvent - Event Listener: 
+EventID: 'X2Action_Completed'  Priority: 50  Deferral: 'ELD_Immediate'  EventDelegate: 'No Valid Object' 'OnParentEvent' ''  SourceObject: 'X2Action_MarkerTreeInsertBegin_169'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.52] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'OverrideReinforcementsAlert'  Priority: 99  Deferral: 'ELD_Immediate'  EventDelegate: 'No Valid Object' 'IncomingReinforcementsDisplay' 'CovertInfiltration.X2EventListener_Infiltration_UI'  SourceObject: 'CHEventListenerTemplate_13'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.52] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'OverrideReinforcementsAlert'  EventData State ID: 0  EventData Object: 'XComLWTuple_1916'
+            EventID: 'OverrideReinforcementsAlert'  Priority: 99  Deferral: 'ELD_Immediate'  EventDelegate: 'No Valid Object' 'IncomingReinforcementsDisplay' 'CovertInfiltration.X2EventListener_Infiltration_UI'  SourceObject: 'CHEventListenerTemplate_13'(0)  PreFilterObject: 'No Valid Object'(0)
+ NULL
+[0097.52] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'OverrideReinforcementsAlert'  Priority: 99  Deferral: 'ELD_Immediate'  EventDelegate: 'No Valid Object' 'IncomingReinforcementsDisplay' 'CovertInfiltration.X2EventListener_Infiltration_UI'  SourceObject: 'CHEventListenerTemplate_13'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.52] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'OverrideReinforcementsAlert'  EventData State ID: 0  EventData Object: 'XComLWTuple_1920'
+            EventID: 'OverrideReinforcementsAlert'  Priority: 99  Deferral: 'ELD_Immediate'  EventDelegate: 'No Valid Object' 'IncomingReinforcementsDisplay' 'CovertInfiltration.X2EventListener_Infiltration_UI'  SourceObject: 'CHEventListenerTemplate_13'(0)  PreFilterObject: 'No Valid Object'(0)
+ NULL
+[0097.52] ELD_OnVisualizationBlockCompleted: Starting
+[0097.52] ELD_OnVisualizationBlockCompleted: History.GetNumGameStates():'171'
+[0097.52] ELD_OnVisualizationBlockCompleted: History.GetCurrentHistoryIndex():'170'
+[0097.52] ELD_OnVisualizationBlockCompleted: PathName(History.GetGameStateFromHistory()):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_758'
+[0097.52] ELD_OnVisualizationBlockCompleted: PathName(GameState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_757'
+[0097.52] ELD_OnVisualizationBlockCompleted: GameState.bReadOnly:'True'
+[0097.52] ELD_OnVisualizationBlockCompleted: GameState.HistoryIndex:'169'
+[0097.52] ELD_OnVisualizationBlockCompleted: GameState.GetNumGameStateObjects():'1'
+[0097.52] ELD_OnVisualizationBlockCompleted: TestState != none:'True'
+[0097.52] ELD_OnVisualizationBlockCompleted: PathName(TestState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_758.XCGS_Test_2'
+[0097.52] ELD_OnVisualizationBlockCompleted: TestState.bReadOnly:'False'
+[0097.52] ELD_OnVisualizationBlockCompleted: TestState.bRemoved:'True'
+[0097.52] ELD_OnVisualizationBlockCompleted: TestState.iVar:'2'
+[0097.52] ELD_OnVisualizationBlockCompleted: PathName(FromHistoryState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_757.XCGS_Test_1'
+[0097.52] ELD_OnVisualizationBlockCompleted: Finished
+[0097.52] ELD_OnVisualizationBlockCompleted: Starting
+[0097.52] ELD_OnVisualizationBlockCompleted: History.GetNumGameStates():'171'
+[0097.52] ELD_OnVisualizationBlockCompleted: History.GetCurrentHistoryIndex():'170'
+[0097.52] ELD_OnVisualizationBlockCompleted: PathName(History.GetGameStateFromHistory()):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_758'
+[0097.52] ELD_OnVisualizationBlockCompleted: PathName(GameState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_757'
+[0097.52] ELD_OnVisualizationBlockCompleted: GameState.bReadOnly:'True'
+[0097.52] ELD_OnVisualizationBlockCompleted: GameState.HistoryIndex:'169'
+[0097.52] ELD_OnVisualizationBlockCompleted: GameState.GetNumGameStateObjects():'1'
+[0097.52] ELD_OnVisualizationBlockCompleted: TestState != none:'True'
+[0097.52] ELD_OnVisualizationBlockCompleted: PathName(TestState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_758.XCGS_Test_2'
+[0097.52] ELD_OnVisualizationBlockCompleted: TestState.bReadOnly:'False'
+[0097.52] ELD_OnVisualizationBlockCompleted: TestState.bRemoved:'True'
+[0097.52] ELD_OnVisualizationBlockCompleted: TestState.iVar:'2'
+[0097.52] ELD_OnVisualizationBlockCompleted: PathName(FromHistoryState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_757.XCGS_Test_1'
+[0097.52] ELD_OnVisualizationBlockCompleted: Finished
+[0097.52] XCom_GameStates: UX2EventManager::RegisterForEvent - Event Listener: 
+EventID: 'X2Action_Completed'  Priority: 50  Deferral: 'ELD_Immediate'  EventDelegate: 'No Valid Object' 'OnParentEvent' ''  SourceObject: 'X2Action_MarkerTreeInsertBegin_170'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.52] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'OverrideReinforcementsAlert'  Priority: 99  Deferral: 'ELD_Immediate'  EventDelegate: 'No Valid Object' 'IncomingReinforcementsDisplay' 'CovertInfiltration.X2EventListener_Infiltration_UI'  SourceObject: 'CHEventListenerTemplate_13'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.52] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'OverrideReinforcementsAlert'  EventData State ID: 0  EventData Object: 'XComLWTuple_1921'
+            EventID: 'OverrideReinforcementsAlert'  Priority: 99  Deferral: 'ELD_Immediate'  EventDelegate: 'No Valid Object' 'IncomingReinforcementsDisplay' 'CovertInfiltration.X2EventListener_Infiltration_UI'  SourceObject: 'CHEventListenerTemplate_13'(0)  PreFilterObject: 'No Valid Object'(0)
+ NULL
+[0097.52] XCom_GameStates: FPendingEvent::AddEventListener - Event Listener: 
+EventID: 'OverrideReinforcementsAlert'  Priority: 99  Deferral: 'ELD_Immediate'  EventDelegate: 'No Valid Object' 'IncomingReinforcementsDisplay' 'CovertInfiltration.X2EventListener_Infiltration_UI'  SourceObject: 'CHEventListenerTemplate_13'(0)  PreFilterObject: 'No Valid Object'(0)
+[0097.53] XCom_GameStates: FPendingEventWindow::AddPendingEvent - Pending Event: 
+EventID: 'OverrideReinforcementsAlert'  EventData State ID: 0  EventData Object: 'XComLWTuple_1925'
+            EventID: 'OverrideReinforcementsAlert'  Priority: 99  Deferral: 'ELD_Immediate'  EventDelegate: 'No Valid Object' 'IncomingReinforcementsDisplay' 'CovertInfiltration.X2EventListener_Infiltration_UI'  SourceObject: 'CHEventListenerTemplate_13'(0)  PreFilterObject: 'No Valid Object'(0)
+ NULL
+[0097.53] ELD_OnVisualizationBlockCompleted: Starting
+[0097.53] ELD_OnVisualizationBlockCompleted: History.GetNumGameStates():'171'
+[0097.53] ELD_OnVisualizationBlockCompleted: History.GetCurrentHistoryIndex():'170'
+[0097.53] ELD_OnVisualizationBlockCompleted: PathName(History.GetGameStateFromHistory()):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_758'
+[0097.53] ELD_OnVisualizationBlockCompleted: PathName(GameState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_758'
+[0097.53] ELD_OnVisualizationBlockCompleted: GameState.bReadOnly:'True'
+[0097.53] ELD_OnVisualizationBlockCompleted: GameState.HistoryIndex:'170'
+[0097.53] ELD_OnVisualizationBlockCompleted: GameState.GetNumGameStateObjects():'1'
+[0097.53] ELD_OnVisualizationBlockCompleted: TestState != none:'True'
+[0097.53] ELD_OnVisualizationBlockCompleted: PathName(TestState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_758.XCGS_Test_2'
+[0097.53] ELD_OnVisualizationBlockCompleted: TestState.bReadOnly:'False'
+[0097.53] ELD_OnVisualizationBlockCompleted: TestState.bRemoved:'True'
+[0097.53] ELD_OnVisualizationBlockCompleted: TestState.iVar:'2'
+[0097.53] ELD_OnVisualizationBlockCompleted: PathName(FromHistoryState):'Transient.XComEngine_0:XComGameStateHistory_0.XComGameState_758.XCGS_Test_2'
+[0097.53] ELD_OnVisualizationBlockCompleted: Finished
+[0097.53] Log: X2TacticalGameRuleset_0 TurnPhase_UnitActions: Available Actions: Done waiting for New States
+[0097.54] Log: X2TacticalGameRuleset_0 TurnPhase_UnitActions: Available Actions
